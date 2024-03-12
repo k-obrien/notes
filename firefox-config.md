@@ -1,8 +1,6 @@
 # Firefox Configuration
 _This configuration aims to deliver the best privacy and security without breaking web sites._
 
-**Note**: _Where directed to `enable` an option, the instruction should be taken as exclusive; i.e. if the option is one of several then all others should be disabled._
-
 
 ## Settings
 - General
@@ -16,14 +14,16 @@ _This configuration aims to deliver the best privacy and security without breaki
     - Search Suggestions
         - Disable all suggestions
 - Privacy & Security
-    - Select `Strict`
-    - Select `Always` Send web sites a "Do Not Track" signal that you don’t want to be tracked
+    - Select `Strict` Browser Privacy
+    - Web Site Privacy Preferences
+        - Enable `Tell web sites not to sell or share my data`
+        - Enable `Send web sites a "Do Not Track" request`
     - Cookies and Site Data
         - Enable `Delete cookies and site data when Firefox is closed`
-    - Logins and Passwords
-        - Disable `Ask to save logins and passwords for web sites`
+    - Passwords
+        - Disable `Ask to save passwords for web sites`
     - History
-        - Select Firefox will `Use custom settings for history`
+        - Select `Use custom settings for history`
         - Enable `Remember browsing and download history`
     - Permissions
         - Block all requests for all permissions
@@ -33,11 +33,9 @@ _This configuration aims to deliver the best privacy and security without breaki
         - Disable all options
     - Security
         - Deceptive Content and Dangerous Software Protection
-            - Enable `Block dangerous and deceptive content`
-            - Enable `Block dangerous downloads`
-            - Enable `Warn you about unwanted and uncommon software`
+            - Enable all options
     - Certificates
-        - Enable `Query OCSP responder servers to confirm the current validity of certificates`
+        - Enable all options
     - HTTPS-Only Mode
         - Select `Enable HTTPS-Only Mode in all windows`
 
@@ -78,5 +76,6 @@ _This configuration aims to deliver the best privacy and security without breaki
 
 
 # References
+- [Actually Legitimate URL Shortener Tool](https://filterlists.com/lists/actually-legitimate-url-shortener-tool)
 - [Arkenfox](https://github.com/arkenfox/user.js/wiki/4.1-Extensions)
 - [Privacy Guides](https://www.privacyguides.org/browsers/#firefox)
