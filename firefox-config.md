@@ -47,14 +47,7 @@ _This configuration aims to deliver the best privacy and security without breaki
 
 # Add-ons
 - [Skip Redirect](https://addons.mozilla.org/en-US/firefox/addon/skip-redirect/)
-- [FastForward](https://addons.mozilla.org/en-US/firefox/addon/fastforwardteam/)
-- [Smart Referer](https://addons.mozilla.org/en-GB/firefox/addon/smart-referer/)
 - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
-
-
-## Smart Referer Configuration
-- Disable `Use default whitelist`
-- Select `Lax` Domain name matching strictness
 
 
 ## uBlock Origin [Configuration](/firefox-config/ublock_origin_initial_config.txt)
@@ -78,4 +71,4 @@ _This configuration aims to deliver the best privacy and security without breaki
 # References
 - [Actually Legitimate URL Shortener Tool](https://filterlists.com/lists/actually-legitimate-url-shortener-tool)
 - [Arkenfox](https://github.com/arkenfox/user.js/wiki/4.1-Extensions)
-- [Privacy Guides](https://www.privacyguides.org/browsers/#firefox)
+- [Privacy Guides](https://www.privacyguides.org/en/desktop-browsers/#recommended-firefox-configuration)
